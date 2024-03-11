@@ -8,14 +8,6 @@ import MeetTheCreator from "Component/MeetTheCreator";
 
 
 export default function Testing() {
-
-  
-
-
-
-
-
-
   return (
     // <div className="flex flex-col items-center gap-4 min-h-screen px-4 py-4">
     <div>

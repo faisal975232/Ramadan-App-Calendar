@@ -21,16 +21,18 @@ function App() {
 
           <Route >
 
-          <Route element={<AppLayout />}>
+            <Route element={<AppLayout />}>
 
-            < Route path="/" element={<Home />} />
-            <Route path="/duas" element={<Duas />} />
-            <Route path="/traffic" element={<VisitorData />} />
+              < Route path="/" element={<Home />} />
+              <Route path="/duas" element={<Duas />} />
 
-            <Route path="/ramadan_full_schedule" element={<RamadanFullTimings />} />
 
+              <Route path="/ramadan_full_schedule" element={<RamadanFullTimings />} />
+
+            </Route>
           </Route>
-          </Route>
+
+          <Route path="/traffic" element={<VisitorData />} />
 
         </Routes>
       </BrowserRouter>
